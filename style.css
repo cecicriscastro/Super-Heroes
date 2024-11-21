@@ -23,6 +23,7 @@ box-sizing: border-box;
 .card {
     width: 300px;
     margin-right: 30px;
+    display: inline-block;
     margin-bottom: 30px;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 3);
 }
@@ -35,18 +36,40 @@ position: absolute;
 top: 15px;
 left: 21px; 
 }
-.card-head .imag-perfil{
+.card-head .imag-perfil {
     position: absolute;
     top: 127px;
     left: 90px;
 }
-.card-body{
+.card-body {
     text-align: center;
-    padding: 73px 16px 104px 16px;
+    padding: 73px 16px 30px 16px;
     background-color: #F3F3F3;
-    ;
+    
 }
-.btn{
-    position: absolute;
-    padding: ;
+
+.card-body h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.card-body p {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 37px;
+}
+.btnVerMas {
+    display: inline-block;
+    background-color: #00669F;
+    padding: 15px 37px; 
+    color: white;
+    text-decoration: none;
+
+}
+footer{
+    background: #00669F;
+    font-size: 16px;
+    color: white;
+    padding: 16px 0px 16px 32px;
 }
